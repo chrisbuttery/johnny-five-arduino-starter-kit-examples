@@ -1,0 +1,14 @@
+{
+  "name": "johnny-five-arduino-starter-kit-examples",
+  "version": "1.0.0",
+  "description": "Arduino Starter Kit examples converted to JS using Johnny-Five",
+  "main": "",
+  "dependencies": {
+    "johnny-five": "^0.8.84"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "author": "Chris Buttery",
+  "license": "ISC",
+  "private": true
+}
