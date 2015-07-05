@@ -12,29 +12,3 @@ As an introduction to the Arduino and [Johnny-Five](https://github.com/rwaldron/
 ... more to come.
 
 [You can see the arduino starter examples here](https://github.com/arduino/Arduino/tree/master/build/shared/examples/10.StarterKit).
-
-#### Style guide
-
-Code styling is based on the [airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) and is applied via [jscs](http://jscs.info/).
-
-If you wish to contribute, it would be great if you could follow this style guide.
-
-Install [jscs](http://jscs.info/):
-
-```
-npm install -g jscs
-```
-
-Specify a path:
-
-```
-// check a specific file
-jscs path/to/js.js
-```
-
-...or just use a glob.
-
-```
-// all .js files
-jscs *.js
-```
