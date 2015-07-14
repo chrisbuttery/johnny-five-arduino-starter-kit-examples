@@ -1,6 +1,6 @@
 # Johnny-Five Arduino Starter Kit examples
 
-As an introduction to the Arduino and [Johnny-Five](https://github.com/rwaldron/johnny-five), I've started converting the starter examples from C to JS.
+As an introduction to the Arduino and [Johnny-Five](https://github.com/rwaldron/johnny-five), I've started converting the starter kit examples from C to JS.
 
 1. Project 1: Get To Know Your Tools
 2. Project 2: [Spaceship Interface](./spaceship-interface.js)
@@ -11,4 +11,4 @@ As an introduction to the Arduino and [Johnny-Five](https://github.com/rwaldron/
 7. Project 7: Keyboard Instrument. Variations: [ one](./keyboard-instrument-1.js) & [ two](./keyboard-instrument-2.js)  
 ... more to come.
 
-[You can see the arduino starter examples here](https://github.com/arduino/Arduino/tree/master/build/shared/examples/10.StarterKit).
+[You can see all the original arduino starter examples here](https://github.com/arduino/Arduino/tree/master/build/shared/examples/10.StarterKit).
