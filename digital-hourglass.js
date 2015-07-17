@@ -15,7 +15,7 @@ var board = new five.Board();
 
 var leds = [2, 3, 4, 5, 6, 7];
 var previousTime;
-var delay = 6000;
+var delay = (1000 * 60) * 10; // 10 minutes
 var currentTime;
 var count = 0;
 
