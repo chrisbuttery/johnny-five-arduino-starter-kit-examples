@@ -74,9 +74,7 @@ board.on('ready', function() {
 
       if ((currentTime - previousTime) > delay) {
         previousTime = currentTime;
-
         _this.digitalWrite(leds[count], 1);
-
         count++;
 
         if (count === leds.length) {
