@@ -14,13 +14,12 @@
  * https://github.com/arduino/Arduino/tree/master/build/shared/examples/10.StarterKit
  */
 
-
-var five = require("johnny-five");
+var five = require('johnny-five');
 var board = new five.Board();
 var notes = [262, 277, 330, 349];
 var voltage;
 
-board.on("ready", function() {
+board.on('ready', function() {
   var piezo = new five.Piezo(8);
   var button = new five.Sensor(0);
 
@@ -31,12 +30,12 @@ board.on("ready", function() {
   });
 
   // open the flood gates and assign v to voltage
-  this.analogRead(0, function (v) {
+  this.analogRead(0, function(v) {
     voltage = v;
   });
 
   // on change, just grab what we need
-  button.on("change", function(){
+  button.on('change', function() {
     if (voltage === 1023) {
       piezo.frequency(notes[0], 250);
     }

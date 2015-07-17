@@ -6,7 +6,7 @@
  * This is pretty much a direct port of the starter kit example.
  * analogRead() methods are asynchronous and will continue to pull in voltage
  * meaning we're sending the voltage to the piezo as it comes in - giving
- * it a distorted effect. 
+ * it a distorted effect.
  *
  * Arduino Starter Kit:
  * http://www.arduino.cc/starterKit
@@ -15,11 +15,11 @@
  * https://github.com/arduino/Arduino/tree/master/build/shared/examples/10.StarterKit
  */
 
-var five = require("johnny-five");
+var five = require('johnny-five');
 var board = new five.Board();
 var notes = [262, 277, 330, 349];
 
-board.on("ready", function() {
+board.on('ready', function() {
   var piezo = new five.Piezo(8);
 
   // allow command line access
@@ -28,7 +28,7 @@ board.on("ready", function() {
   });
 
   // open the flood gates
-  this.analogRead(0, function (voltage) {
+  this.analogRead(0, function(voltage) {
     if (voltage === 1023) {
       piezo.frequency(notes[0], 250);
     }
