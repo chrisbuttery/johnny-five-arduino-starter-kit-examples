@@ -9,7 +9,8 @@ As an introduction to the Arduino and [Johnny-Five](https://github.com/rwaldron/
 5. Project 5: [Servo Mood Indicator](./mood-indicator.js)
 6. Project 6: [Light Theremin](./light-theremin.js)
 7. Project 7: Keyboard Instrument. Variations: [ one](./keyboard-instrument-1.js) & [ two](./keyboard-instrument-2.js)
-8. Project 8: [Digital Hourglass](./digital-hourglass.js)  
+8. Project 8: [Digital Hourglass](./digital-hourglass.js)
+9. Project 9: [Motorised Pinwheel](./motorised-pinwheel.js)  
 ... more to come.
 
 [You can see all the original arduino starter examples here](https://github.com/arduino/Arduino/tree/master/build/shared/examples/10.StarterKit).
