@@ -1,4 +1,3 @@
-
 /**
  * color-mixing-lamp.js
  * Arduino Starter Kit example converted to johnny-five
