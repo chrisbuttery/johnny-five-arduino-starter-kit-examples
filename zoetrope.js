@@ -24,7 +24,7 @@ board.on('ready', function() {
   var onOffSwitch = new five.Button(5);
   var motor = new five.Motor([9, 3, 2]);
   var potPin = new five.Sensor({
-    pin: "A0",
+    pin: 'A0',
     freq: 250
   });
 
@@ -67,7 +67,7 @@ board.on('ready', function() {
   // If the motor isn't running - get out
   // As the motor is running, set `motorSpeed`
   // Send the new speed through to a running motor
-  potPin.on("data", function() {
+  potPin.on('data', function() {
     if (!isRunning) return;
     motorSpeed = this.value / 4;
 
