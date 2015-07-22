@@ -23,7 +23,7 @@ board.on('ready', function() {
   this.pinMode(switchPin, five.Pin.INPUT);
 
   /**
-   * Read the diginatl value of `switchPin`.
+   * Read the digital value of `switchPin`.
    * This will either be 1 (on) or 0 (off)
    * Write the value to the motor pin
    */
