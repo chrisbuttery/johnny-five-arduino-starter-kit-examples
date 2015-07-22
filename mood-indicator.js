@@ -27,8 +27,6 @@ function map(val, fromLow, fromHigh, toLow, toHigh) {
   return ((val - fromLow) * (toHigh - toLow)) / ((fromHigh - fromLow) + toLow);
 }
 
-// Are we ready?
-
 board.on('ready', function() {
 
   // Create a standard servo

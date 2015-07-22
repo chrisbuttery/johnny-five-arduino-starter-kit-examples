@@ -17,8 +17,6 @@ var motorSpeed = 0;
 var goForward = true;
 var isRunning = false;
 
-// Are we ready?
-
 board.on('ready', function() {
   var directionSwitch = new five.Button(4);
   var onOffSwitch = new five.Button(5);

@@ -19,8 +19,6 @@ var delay = (1000 * 60) * 10; // 10 minutes
 var currentTime;
 var count;
 
-// Are we ready?
-
 board.on('ready', function() {
   var _this = this;
 

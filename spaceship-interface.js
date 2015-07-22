@@ -26,8 +26,6 @@ var config = {
   }
 };
 
-// Are we ready?
-
 board.on('ready', function() {
 
   // create our button and LEDs

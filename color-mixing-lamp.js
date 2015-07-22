@@ -21,8 +21,6 @@ var redSensorValue;
 var greenSensorValue;
 var blueSensorValue;
 
-// Are we ready?
-
 board.on('ready', function() {
   var _this = this;
 
