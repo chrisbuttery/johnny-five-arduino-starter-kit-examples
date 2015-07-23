@@ -12,6 +12,7 @@ Project 7: Keyboard Instrument. Variations: [ one](./keyboard-instrument-1.js) &
 Project 8: [Digital Hourglass](./digital-hourglass.js)  
 Project 9: [Motorised Pinwheel](./motorised-pinwheel.js)  
 Project 10: [Zoetrope](./zoetrope.js)  
+Project 11: [Crystal Ball](./crystal-ball.js)  
 ... more to come.
 
 [You can see all the original arduino starter examples here](https://github.com/arduino/Arduino/tree/master/build/shared/examples/10.StarterKit).
