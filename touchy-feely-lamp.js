@@ -24,12 +24,12 @@ board.on('ready', function() {
   this.digitalWrite(12, 0);
 
   // on touch
-  touch.on('press', function(){
+  touch.on('press', function() {
     _this.digitalWrite(12, 1);
   });
 
   // on release
-  touch.on('release', function(){
+  touch.on('release', function() {
     _this.digitalWrite(12, 0);
   });
 });
