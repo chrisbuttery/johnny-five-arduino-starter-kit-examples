@@ -4,11 +4,11 @@
   "description": "Arduino Starter Kit examples converted to JS using Johnny-Five",
   "main": "",
   "dependencies": {
-    "johnny-five": "^0.8.84"
+    "johnny-five": "^0.8.85"
   },
   "devDependencies": {},
   "scripts": {
-    "lint": "jscs *.js"
+    "lint": "jscs *.js --preset=airbnb --excludeFiles=node_modules/**"
   },
   "author": "Chris Buttery",
   "license": "ISC",
