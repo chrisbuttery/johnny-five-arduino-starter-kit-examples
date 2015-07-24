@@ -14,6 +14,7 @@ Project 9: [Motorised Pinwheel](./motorised-pinwheel.js)
 Project 10: [Zoetrope](./zoetrope.js)  
 Project 11: [Crystal Ball](./crystal-ball.js)  
 Project 12: [Knock Lock](./knock-lock.js)  
+Project 13: [Touchy Feely Lamp](./touchy-feely-lamps.js)   
 ... more to come.
 
 
