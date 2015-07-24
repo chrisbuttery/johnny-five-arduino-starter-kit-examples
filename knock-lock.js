@@ -26,11 +26,16 @@ board.on('ready', function() {
   var _this = this;
   var sensor = new five.Sensor('A0');
   var button = new five.Button(2);
+  var servo = new five.Servo({
+    pin: 9,
+    startAt: 0
+  });
 
   // allow command line access
   board.repl.inject({
     sensor: sensor,
-    button: button
+    button: button,
+    servo: servo
   });
 
   // create out pins
@@ -45,6 +50,7 @@ board.on('ready', function() {
    */
   function lock() {
     isLocked = true;
+    servo.to(0);
     _this.digitalWrite(red, 1);
     _this.digitalWrite(green, 0);
     console.log('The box is locked');
@@ -58,6 +64,7 @@ board.on('ready', function() {
   function unlock() {
     numOfKnocks = 0;
     isLocked = false;
+    servo.to(90);
     _this.digitalWrite(red, 0);
     _this.digitalWrite(green, 1);
     _this.digitalWrite(yellow, 0);
